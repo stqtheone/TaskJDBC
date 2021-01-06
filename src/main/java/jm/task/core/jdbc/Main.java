@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) throws SQLException {
         UserServiceImpl userService = new UserServiceImpl();
         User user1 = new User("sasha","gubanov",(byte) 23);
         User user2 = new User("vladimir","ovechkin",(byte) 20);
